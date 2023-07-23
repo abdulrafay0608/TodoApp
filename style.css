@@ -1,0 +1,198 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    position: absolute;
+    left: 50vh;
+    right: 50vh;
+    
+    /* margin-bottom: 20vh; */
+    /* margin-left: 20vh; */
+    /* margin-right: 10vh; */
+
+}
+@media screen and (min-width: 300px) {
+    .align {
+        position: absolute;   
+        left: 5vh;
+        right: 5vh;
+        
+    }
+  }
+.card {
+    background-color: rgb(18, 16, 16) !important;
+    color: white;
+    height: 100%;
+    max-height: 446px;
+    width: 350px;
+    border: 2px solid #373737;
+    border-radius: 20px !important;
+    /* display: none !important; */
+    /* color: #fff; */
+}
+
+.head {
+    width: 100%;
+    /* display: flex; */
+    height: 40px;
+    border-bottom: 2px solid #373737;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+}
+
+.head i {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+}
+
+.head i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#register {
+    color: greenyellow;
+}
+
+.head a {
+    text-decoration: none;
+    font-size: 25px;
+    /* padding: 20px; */
+}
+
+#login {
+    color: greenyellow;
+}
+
+#form_1,
+#form_2 {
+    padding: 35px;
+}
+
+.input {
+    background-color: rgb(27, 25, 25);
+    color: white;
+    border: solid 2px rgb(27, 25, 25);
+    padding: 5px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#form_1 input::placeholder,
+#form_2 input::placeholder {
+    font-size: 13px;
+
+}
+
+.register_btn {
+    padding: 10px 30px;
+    background-color: green;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login_btn {
+    padding: 10px 30px;
+    background-color: green;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* Todo App Code Start */
+
+.todo_main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: lightsteelblue;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.todoHeading {
+    background-color: slategrey;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#todo_input {
+    background-color: lightslategrey;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    width: 80%;
+    padding: 8px;
+    padding-left: 25px;
+}
+
+#todo_input::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+
+/* #todo_input:active{
+    color: #fff;
+    font-size: 15px;
+} */
+#submit_todo {
+    width: 18%;
+    color: #fff;
+    padding: 8px;
+    background-color: lightslategrey;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+
+}
+
+#inputAndAddBtnContainer {
+    padding: 10px 5px;
+    padding-left: 15px;
+
+}
+
+#list_container {
+    list-style-type: none;
+}
+
+.logout {
+    padding: 5px 15px;
+    border: 1px solid lightslategrey;
+    border-radius: 5px;
+    background-color: lightslategrey;
+    font-weight: bolder;
+}
+
+.logout:hover {
+    border: 1px solid lightslategrey;
+    box-shadow: 0px 0px 0px 1px;
+    color: #fff;
+    font-weight: bolder;
+}
